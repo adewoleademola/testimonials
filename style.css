@@ -1,0 +1,437 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ecf1f7;
+    overflow-x: hidden;
+}
+.flex1{
+    display: flex;
+    width: 100%;
+    margin-top: 20px auto;
+}
+.flex2{
+    position: absolute;
+    top: 62%;
+    display: flex;
+}
+.text4 h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    width: 70%;
+}
+.text4 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 88%;
+}
+.card4{
+    margin: 20px;
+    width: 34%;
+    padding: 20px;
+    height: 300px;
+    background: #fff;
+    border-radius: 12px;
+}
+.text4{
+    margin-top: -12px;
+    margin-left: 5%;
+}
+.card-resize{
+    margin-left: 10px;
+}
+
+.card-resize h4, .card-resize p{
+    position: relative;
+    left: 25px;
+}
+.card-width{
+    width: 100%;
+    height: 350px;
+    background-color: #733FC8;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.card-width p{
+    color: #B98AFA;
+}
+.card-size p{
+    color: #929DB1;
+}
+.card-width p{
+    width: 40rem;
+    font-size: 17px;
+}
+.card-width h2{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card2{
+    width: 65%;
+    margin: 16px;
+    background-color: #49556B;
+    padding: 20px;
+    margin-top: 20px;
+    height: 350px;
+    border-radius: 12px;
+}
+.text2{
+    margin: 25px;
+    margin-top: -15px;
+}
+.card-size{
+    margin-left: 7%;
+}
+
+.card-flex{
+    position: relative;
+    left: 30px;
+}
+.text2 h2{
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+}
+ h4{
+    color: #E2E7ED;
+}
+.text2 p{
+    width: 13rem;
+    font-size: 16px;
+    color: #B8C4D4;
+}
+.card3 p{
+    font-size: 18px;
+}
+.card3{
+    width: 20rem;
+    background: #fff;
+    position: relative;
+    margin-top: 20px;
+    height: 730px;
+    padding: 15px;
+    border-radius: 12px;
+}
+.card3 p{
+    width: 17rem;
+    font-size: 17px;
+    color: #2d2d2d;
+    margin-left: 4%;
+    margin-top: 40px;
+}
+.card3 h2{
+    margin-left: 4%;
+}
+.card-page{
+    margin-left: 2%;
+}
+.card-page h4, .card-page p{
+    margin-top: -20px;
+    position: relative;
+    left: 12%;
+}
+.card img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: relative;
+    top: 25px;
+}
+.text{
+    margin-left: 2%;
+    color: #9774CE;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.card-margin{
+    margin-left: 2%;
+    position: relative;
+    bottom: 25px;
+}
+.card p{
+    font-size: 16px;
+}
+
+.text h2{
+    color: #fff;
+    width: 40rem;
+    margin-top: -30px;   
+}
+.card h4, .card p{
+    margin-top: -18px;
+    margin-left: 12%;
+}
+.text5 p{
+    width: 38rem;
+    margin: 35px;
+    font-size: 16px;
+    color: #9CA2AE;
+    margin-top: 36px;
+}
+.card-5{
+    position: relative;
+    left: 10px;
+}
+.card{
+    margin: 20px;
+}
+.text5 h2{
+    margin-left: 35px;
+    text-align: left;
+    width: 40rem;
+    color: #fff;
+}
+.card-5 h4, .card-5 p{
+    margin-top: -18px;
+    position: relative;
+    left: 5px;
+}
+.card5{
+    position: absolute;
+    width: 48%;
+    top: 49%;
+    height: 340px;
+    left: 29%; 
+    background: #18202D;
+    margin-top: 8%;
+    border-radius: 12px;
+}
+.card p{
+    color: #DCDDE1;
+}
+@media(max-width: 952px){
+    section{
+        margin: 50px;
+    }   
+    .card4{
+        position: relative;
+        top: 100px;
+        height: 350px;
+    }
+    .card5{
+        position: absolute;
+        top: 70%;
+        width: 42rem;
+        left: 48%;
+        height: 380px;
+    }
+    .card3{
+        position: relative;
+        left: 20px;
+    }
+    .text5 p{
+        font-size: 18px;
+        letter-spacing: 0.6px;
+    }
+    .text4 p{
+        font-size: 18px;
+        width: 100%;
+    }
+    .text4 h2{
+        width: 90%;
+        font-size: 25px;
+    }
+    .text p{
+        font-size: 18px;
+        letter-spacing: 0.8px;
+
+    }
+    .text3 p{
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+    .card3{
+        height: 780px;
+    }
+    .text2 p{
+        letter-spacing: 0.1px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 868px){
+    .card5{
+        position: absolute;
+        left: 50%;
+    }
+}
+@media(max-width: 845px){
+    .text4 h2{
+        width: 100%;
+    }
+}
+@media(max-width: 780px){
+    .card5{
+        position: absolute;
+        left: 55%;
+    }
+    .card4{
+        width: 38%;
+    }
+    .text4 p{
+        font-size: 20px;
+    }
+}
+@media(max-width: 700px){
+    .flex1{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex2{
+        display: flex;
+        flex-direction: column;
+    }
+    .card4{
+        position: relative;
+        top: 81rem;
+        height: 30rem;
+        width: 50rem;
+        left: 2px;
+    }
+    .card-margin{
+        margin-left: 6%;
+    }
+    .card h4{
+        font-size: 25px;
+    }
+    .card p{
+        font-size: 20px;
+        margin-top: -25px;
+    }
+    .card-width{
+        width: 50rem;
+        height: 60rem;
+        margin-left: 3%;
+    }
+    .text h2{
+        width: 48rem;
+        font-size: 50px;
+        margin-left: 25px;
+    }
+    .text p{
+        font-size: 35px;
+        letter-spacing: 0.8px;
+        margin-left: 2%;
+        width: 95%;
+    }
+    .card5{
+        position: relative;
+        top: 34rem;
+        width: 52rem;
+        left: 28px;
+        height: 55rem;
+    }
+    .text5 h2{
+        font-size: 50px;
+        width: 89%;
+        margin-left: 8%;
+    }
+    .text5 p{
+        font-size: 35px;
+        width: 88%;
+        letter-spacing: 0.8px;
+        margin-left: 8%;
+
+    }
+    .card2{
+        width: 50rem;
+        margin-left: 3%;
+        height: 32rem;
+    }
+    .text2 h2{
+        font-size: 50px;
+        margin-left: 2%;
+    }
+    .text2 p{
+        font-size: 35px;
+        width: 100%;       
+        margin-left: 2%;
+    }
+    .card3{
+        position: absolute;
+        top: 198rem;
+        width: 50rem;
+        left: 80px;
+        height: 65rem;
+    }
+    .text3 h2{
+        font-size: 50px;
+        margin-left: 7%;
+    }
+    .card-margin img{
+        position: relative;
+        top: 37px;
+    }
+    .card-margin h4, .card-margin p{
+        position: relative;
+        left: -20px;
+    }
+    .card-size{
+        margin-left: 5%;
+    }
+    .card-size img{
+        position: relative;
+        top: 37px;
+    }
+    .card-size h4, .card-size p{
+        position: relative;
+        left: -20px;
+    }
+    .card-resize{
+        margin-left: 5%;
+    }
+    .card-resize img{
+        position: relative;
+        top: 37px;
+    }
+    .card-5 img{
+        position: relative;
+        top: 37px;
+    }
+    .card-page{
+        margin-left: 6%;
+
+    }
+    .card-page img{
+        position: relative;
+        top: 37px;
+    }
+    .card-page h4, .card-page p{
+        position: relative;
+        left: -20px;
+    }
+    .card-5{
+        margin-left: 7%;
+        position: relative;
+        top: 20px;
+    }
+    .card-5 h4, .card-5 p{
+        position: relative;
+        left: -20px;
+    }
+    .card-resize h4, .card-resize p{
+        position: relative;
+        left: -20px;
+    }
+    .text3 p{
+        font-size: 35px;
+        width: 92%;
+        margin-left: 5%;
+        letter-spacing: 0.8px;
+    }
+    .text4 h2{
+        font-size: 50px;
+    }
+    .text4 p{
+        font-size: 35px;
+    }
+}
